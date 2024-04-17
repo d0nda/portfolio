@@ -2,10 +2,8 @@
 
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import Container from './Container';
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const Footer = () => {
 
@@ -16,14 +14,11 @@ const Footer = () => {
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center justify-between">
                     <p className="text-black dark:text-white text-md text-center sm:text-left sm:mr-auto">© 2024 Nkosinathi Mbokazi</p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 mb-3 justify-center sm:justify-start">
-                        <Link href="https://facebook.com/" target="_blank" className="hover:bg-purple-400 hover:text-accent-foreground text-black dark:text-white">
-                            <FaFacebook size={25} />
+                        <Link href="https://www.linkedin.com/in/nkosinathimbokazi" target="_blank" className="hover:text-purple-400">
+                            <FaLinkedin size={30} />
                         </Link>
-                        <Link href="https://x.com/" target="_blank" className="ml-3 hover:bg-purple-400 hover:text-accent-foreground text-black dark:text-white">
-                            <FaSquareXTwitter size={25} />
-                        </Link>
-                        <Link href="https://instagram.com/" target="_blank" className="ml-3 hover:bg-purple-400 hover:text-accent-foreground text-black dark:text-white">
-                            <FaInstagram size={25} />
+                        <Link href="https://github.com/d0nda" target="_blank" className="ml-3 hover:text-purple-400">
+                            <FaSquareGithub size={30} />
                         </Link>
                     </span>
                 </div>
