@@ -18,18 +18,18 @@ export default function Header() {
     const routes = [
         {
             id: 1,
-            title: "Projects",
-            url: "/projects",
+            title: "About",
+            url: "#about",
         },
         {
             id: 2,
-            title: "About",
-            url: "/about",
+            title: "Projects",
+            url: "#projects",
         },
         {
             id: 3,
             title: "Skills",
-            url: "/skills",
+            url: "#skills",
         },
     ];
 

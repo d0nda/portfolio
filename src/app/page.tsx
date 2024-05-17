@@ -8,12 +8,40 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FiDownload } from "react-icons/fi";
 import Link from "next/link";
-import { PinContainer } from "@/components/ui/3d-pin";
 
 import {FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaNodeJs, FaGitAlt  } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa6";
+import ProjectList from "@/components/ProjectList";
+
+
+const projects = [
+  {
+    id: "1",
+    category: "Web App",
+    name: "iSpaan",
+    images: ["/project/ispaan.png"],
+    link: "https://ispaan.vercel.app",
+    sourcecode: '',
+  },
+  {
+    id: "2",
+    category: "Mobile App",
+    name: "To-Do-Hub",
+    images: ["/project/todohub.png"],
+    link: "/",
+    sourcecode: '',
+  },
+  {
+    id: "3",
+    category: "Web App",
+    name: "Daily Quotes",
+    images: ["/project/dailyquotes.png"],
+    link: "https://d0nda.github.io/dailyquotes",
+    sourcecode: '',
+  },
+];
 
 
 
@@ -21,13 +49,13 @@ export default function Home() {
   return (
     <main>
       <Container>
-      <section className=" mb-[10rem] md:h-[40rem] flex flex-col md:flex-row items-center justify-between p-10 md:p-24 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20">
+      <section className="mx-4 mb-[2rem] md:h-[40rem] flex flex-col md:flex-row items-center justify-between p-10 md:p-24 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20">
         <div className="max-w-3xl p-4">
           <h1 className="text-neutral-400 max-w-lg text-md md:text-3xl mx-auto text-center my-2 font-bold">
             Hello 👋🏽 , Im Nkosinathi Mbokazi
           </h1>
           <h1 className="mb-5 relative z-10 text-4xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-            Full-Stack Developer
+            Full-Stack Engineer
           </h1>
           <p className="mb-5 text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
             From South Africa . Have a passion for creating innovative and
@@ -72,96 +100,37 @@ export default function Home() {
               className="object-contain"
             />
           </BackgroundGradient>
-        
-      </section>
-
-      <section className="mx-4 mb-8 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20">
-        <div className="flex flex-col w-full items-center justify-center">
-          <h1 className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-            Projects
-          </h1>
-          <p className="mb-8">skilled web developer with expertise in HTML.</p>
-          <div className=" mt-3 mb-5 grid grid-cols-1 items-center justify-center md:grid-cols-2  lg:grid-cols-3 ">
-            <div className="mb-[5rem] w-full flex items-center justify-center ">
-              <PinContainer
-                title="8thwanda.com"
-                href="https://8thwanda.com"
-                
-              >
-                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                  
-                  <div className="flex flex-1 w-full rounded-lg mb-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-                  <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                    8thwanda
-                  </h3>
-                  <div className="text-base !m-0 !p-0 font-normal">
-                    <span className="text-slate-500 ">
-                      Customizable Tailwind CSS and Framer Motion Components.
-                    </span>
-                  </div>
-                </div>
-                
-              </PinContainer>
-            </div>
-            <div className="mb-[5rem] w-full flex items-center justify-center ">
-              <PinContainer
-                title="facebook.com"
-                href=""
-                
-              >
-                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                  
-                  <div className="flex flex-1 w-full rounded-lg mb-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-                  <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                    Aceternity UI
-                  </h3>
-                  <div className="text-base !m-0 !p-0 font-normal">
-                    <span className="text-slate-500 ">
-                      Customizable Tailwind CSS and Framer Motion Components.
-                    </span>
-                  </div>
-                </div>
-                
-              </PinContainer>
-            </div>
-            <div className="mb-[5rem] w-full flex items-center justify-center ">
-              <PinContainer
-                title="facebook.com"
-                href=""
-                
-              >
-                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                  
-                  <div className="flex flex-1 w-full rounded-lg mb-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-                  <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                    Aceternity UI
-                  </h3>
-                  <div className="text-base !m-0 !p-0 font-normal">
-                    <span className="text-slate-500 ">
-                      Customizable Tailwind CSS and Framer Motion Components.
-                    </span>
-                  </div>
-                </div>
-                
-              </PinContainer>
-            </div>
-           
-          </div>
           
-       </div>
       </section>
 
 
-      <section className="mb-8 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20">
-        <div className="mx-4 flex flex-col h-[30rem] w-full  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative items-center justify-center">
+      <section className="mx-4 mb-8" id="about">
+        <div className="mx-auto sm:mx-4 flex flex-col h-[30rem] w-full  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative items-center justify-center">
           <h1 className="text-4xl sm:text-7xl font-bold z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
             About Me
           </h1>
           <p>Skilled Full-Stack developer with expertise in HTML, CSS, and JavaScript. Have a passion for creating innovative and user-friendly web applications that provide exceptional user experiences. My interest in web development began during my high school years when i started experimenting with HTML and CSS. I quickly became proficient in these technologies and later expanded my skillset to include Python, which allowed me to build dynamic and interactive web applications. When iam not coding, i enjoy spending time outdoors, gaming , and listening to music.</p>
        </div>
+       <div className="mt-5 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20"></div>
       </section>
 
-      <section className="mb-8">
+      <section className="mx-4 mt-8 mb-8" id="projects">
+        <div className="mx-auto sm:mx-4 md:mx-6 lg:mx-16 xl:mx-20 2xl:mx-24 max-w-screen-sm sm:max-w-screen-md md:max-w-screen-lg lg:max-w-screen-xl xl:max-w-screen-2xl 2xl:max-w-screen-3xl">
+          <h1 className="text-center text-4xl sm:text-7xl font-bold z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+            Projects
+          </h1>
+          <p className="mb-6 text-center">Explore some of the projects i have built.</p>
+          <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+              <div className="mt-11 mb-8">
+                <ProjectList items={projects} />
+              </div>
+            </div>
+       </div>
+       <div className="mt-5 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20"></div>
+      </section>
+      
+
+      <section className="mb-8" id="skills">
         <div className="flex flex-col h-[90rem] md:h-[30rem] w-full  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative items-center justify-center">
           <h1 className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
             My Skills
