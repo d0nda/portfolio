@@ -54,7 +54,7 @@ export default function Home() {
           <h1 className="text-neutral-400 max-w-lg text-md md:text-3xl mx-auto text-center my-2 font-bold">
             Hello 👋🏽 , Im Nkosinathi Mbokazi
           </h1>
-          <h1 className="mb-5 relative z-10 text-4xl md:text-8xl  bg-clip-text text-gray-400  text-center font-sans font-bold">
+          <h1 className="mb-5 relative z-10 text-4xl md:text-8xl  bg-clip-text text-neutral-400 text-center font-sans font-bold">
             Full-Stack Engineer
           </h1>
           <p className="mb-5 text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
