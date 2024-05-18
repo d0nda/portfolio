@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <main>
       <Container>
-      <section className="mx-4 mb-[2rem] md:h-[40rem] flex flex-col md:flex-row items-center justify-between p-10 md:p-24 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20">
+      <section className="mx-4 mb-[2rem] md:h-[40rem] flex flex-col md:flex-row items-center justify-between p-10 md:p-24 border-black border-opacity-30 dark:border-white border-b dark:border-opacity-30">
         <div className="max-w-3xl p-4">
           <h1 className="text-neutral-400 max-w-lg text-md md:text-3xl mx-auto text-center my-2 font-bold">
             Hello 👋🏽 , Im Nkosinathi Mbokazi
@@ -111,7 +111,7 @@ export default function Home() {
           </h1>
           <p>Full-Stack developer with expertise in HTML, CSS, and JavaScript. Have a passion for creating innovative and user-friendly web applications that provide exceptional user experiences. My interest in web development began during my high school years when i started experimenting with HTML and CSS. I quickly became proficient in these technologies and later expanded my skillset to include Javascript, which allowed me to build dynamic and interactive web applications. When iam not coding, i enjoy spending time outdoors, gaming , and listening to music.</p>
        </div>
-       <div className="mt-5 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20"></div>
+       <div className="mt-5 border-black border-opacity-30 dark:border-white border-b dark:border-opacity-30"></div>
       </section>
 
       <section className="mx-4 mt-8 mb-8" id="projects">
@@ -126,7 +126,7 @@ export default function Home() {
               </div>
             </div>
        </div>
-       <div className="mt-5 border-black border-opacity-20 dark:border-white border-b dark:border-opacity-20"></div>
+       <div className="mt-5 border-black border-opacity-30 dark:border-white border-b dark:border-opacity-30"></div>
       </section>
       
 
