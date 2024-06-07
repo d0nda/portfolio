@@ -30,7 +30,7 @@ const projects = [
     category: "Mobile App",
     name: "To-Do-Hub",
     images: ["/project/todohub.png"],
-    link: "/",
+    link: "https://play.google.com/store/apps/details?id=com.todohub",
     sourcecode: '',
   },
   {
