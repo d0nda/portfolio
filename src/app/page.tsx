@@ -55,7 +55,7 @@ export default function Home() {
             Hello 👋🏽 , Im Nkosinathi Mbokazi
           </h1>
           <h1 className="mb-5 relative z-10 text-4xl md:text-8xl  bg-clip-text text-neutral-400 text-center font-sans font-bold">
-            Full-Stack Engineer
+            Full-Stack Developer
           </h1>
           <p className="mb-5 text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
             From South Africa . Have a passion for creating innovative and
