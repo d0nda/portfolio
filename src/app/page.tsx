@@ -65,7 +65,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
               <button className="p-[3px] relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                <Link href='#' target="_blank" className="flex flex-row text-center justify-between px-3 py-2 md:px-8 md:py-2 bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+                <Link href='/Profile.pdf' target="_blank" className="flex flex-row text-center justify-between px-3 py-2 md:px-8 md:py-2 bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
                   Download Resume
                   <span className="mt-[5px] ml-3">
                     <FiDownload />
